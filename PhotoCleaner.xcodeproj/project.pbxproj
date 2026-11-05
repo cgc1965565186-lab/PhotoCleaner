@@ -1,0 +1,231 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {};
+	objectVersion = 60;
+	objects = {
+/* Begin PBXBuildFile section */
+		678311898776E62B5563E4B8 /* PerceptualHash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25ADA42CF6DEDE9640F28142 /* PerceptualHash.swift */; };
+		99A3D9E79B345AE9BBA1F2EB /* MediaRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09CC409EBBC18C72917B1B0 /* MediaRecord.swift */; };
+		EACEBE05B0784664CB88CAFC /* PhotoCleanerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E61E3877F0C3A272CAB2748 /* PhotoCleanerApp.swift */; };
+		06A24EB91A93B4807A7B51A7 /* PhotoLibraryService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF4D91095BEBEB8D874A9F1 /* PhotoLibraryService.swift */; };
+		F8B2015F3D203BE74911CC9E /* StorageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E420E8C85F416C9CE4F46001 /* StorageService.swift */; };
+		3B1A8E9A8AE7D53A6B5BD3DC /* AppStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0132334F01EEFEEF75ED2E07 /* AppStore.swift */; };
+		A18DA6DCB1E936649CE5445B /* AssetThumbnailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77DC4790F6E204C4923F1DE5 /* AssetThumbnailView.swift */; };
+		28616952AB19B851A3A36297 /* DesignSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27D7AEBB0F5B9B6D3EB3EF2 /* DesignSystem.swift */; };
+		7048FA0F2F3CB21E09DC55D3 /* FilterSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 970D972261EC5B9C7339E9C7 /* FilterSheet.swift */; };
+		4BFAC33B292E4072F96A8435 /* MediaLibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8CD70837DCAAD376F96715 /* MediaLibraryView.swift */; };
+		CCD9ADC3FE298D16F4E6598E /* OverviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B1E491D5BEA5AE616837F9 /* OverviewView.swift */; };
+		1A9F6CB0E1CF49908D59BB7F /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB18B5E338753C95489F57B /* RootView.swift */; };
+		56EEC93047438652C1917FFC /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F7FC7D757DCDFF4F03176FC /* SettingsView.swift */; };
+		C3D4E5F60718293A4B5C6D7E /* ReviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C3D4E5F60718293A4B5C6D /* ReviewView.swift */; };
+		E5F60718293A4B5C6D7E8F90 /* AssetDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E5F60718293A4B5C6D7E8F /* AssetDetailView.swift */; };
+		04DF9AFC51F545B1648EA406 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = B7D60533A076FA1D606D5924 /* PrivacyInfo.xcprivacy */; };
+		D6E7F8091A2B3C4D5E6F7081 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5F60718293A4B5C /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+/* Begin PBXFileReference section */
+		25ADA42CF6DEDE9640F28142 /* PerceptualHash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PerceptualHash.swift"; sourceTree = "<group>"; };
+		C09CC409EBBC18C72917B1B0 /* MediaRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MediaRecord.swift"; sourceTree = "<group>"; };
+		6E61E3877F0C3A272CAB2748 /* PhotoCleanerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PhotoCleanerApp.swift"; sourceTree = "<group>"; };
+		DAF4D91095BEBEB8D874A9F1 /* PhotoLibraryService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PhotoLibraryService.swift"; sourceTree = "<group>"; };
+		E420E8C85F416C9CE4F46001 /* StorageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StorageService.swift"; sourceTree = "<group>"; };
+		0132334F01EEFEEF75ED2E07 /* AppStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppStore.swift"; sourceTree = "<group>"; };
+		77DC4790F6E204C4923F1DE5 /* AssetThumbnailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AssetThumbnailView.swift"; sourceTree = "<group>"; };
+		A27D7AEBB0F5B9B6D3EB3EF2 /* DesignSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DesignSystem.swift"; sourceTree = "<group>"; };
+		970D972261EC5B9C7339E9C7 /* FilterSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FilterSheet.swift"; sourceTree = "<group>"; };
+		BC8CD70837DCAAD376F96715 /* MediaLibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MediaLibraryView.swift"; sourceTree = "<group>"; };
+		55B1E491D5BEA5AE616837F9 /* OverviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "OverviewView.swift"; sourceTree = "<group>"; };
+		8EB18B5E338753C95489F57B /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RootView.swift"; sourceTree = "<group>"; };
+		8F7FC7D757DCDFF4F03176FC /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SettingsView.swift"; sourceTree = "<group>"; };
+		B2C3D4E5F60718293A4B5C6D /* ReviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ReviewView.swift"; sourceTree = "<group>"; };
+		D4E5F60718293A4B5C6D7E8F /* AssetDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AssetDetailView.swift"; sourceTree = "<group>"; };
+		B7D60533A076FA1D606D5924 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PrivacyInfo.xcprivacy"; sourceTree = "<group>"; };
+		A1B2C3D4E5F60718293A4B5C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Assets.xcassets"; sourceTree = "<group>"; };
+		F8B28D0D3748A8C81FCE7CC6 /* PhotoCleaner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoCleaner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+/* Begin PBXFrameworksBuildPhase section */
+		424153ED3CD079DB4DB459AF /* Frameworks */ = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXFrameworksBuildPhase section */
+/* Begin PBXGroup section */
+		518DA81DB9B99529C0C0AEBE = {isa = PBXGroup; children = (7D9935DB6D89FBFB5068AC6B /* PhotoCleaner */, 547D009064F7C3F13BEF3460 /* Products */, ); sourceTree = "<group>"; };
+		7D9935DB6D89FBFB5068AC6B /* PhotoCleaner */ = {
+			isa = PBXGroup;
+			children = (
+				BCA211938DA1AA1C347A707A,
+				F34FF417D77CBC278CD17099,
+				F6A1B58E9236EBB27862303E,
+				0B6A471883952B1022D536B0,
+				9E3DED3F4C9985F3F835414A,
+				FF95EFD71C960F3B8A42DEF1,
+				6E61E3877F0C3A272CAB2748,
+			);
+			path = "PhotoCleaner";
+			sourceTree = "<group>";
+		};
+		9E3DED3F4C9985F3F835414A /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				0132334F01EEFEEF75ED2E07,
+			);
+			path = "ViewModels";
+			sourceTree = "<group>";
+		};
+		BCA211938DA1AA1C347A707A /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				25ADA42CF6DEDE9640F28142,
+			);
+			path = "Core";
+			sourceTree = "<group>";
+		};
+		F6A1B58E9236EBB27862303E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B7D60533A076FA1D606D5924,
+				A1B2C3D4E5F60718293A4B5C,
+			);
+			path = "Resources";
+			sourceTree = "<group>";
+		};
+		F34FF417D77CBC278CD17099 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C09CC409EBBC18C72917B1B0,
+			);
+			path = "Models";
+			sourceTree = "<group>";
+		};
+		FF95EFD71C960F3B8A42DEF1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				77DC4790F6E204C4923F1DE5,
+				A27D7AEBB0F5B9B6D3EB3EF2,
+				970D972261EC5B9C7339E9C7,
+				BC8CD70837DCAAD376F96715,
+				55B1E491D5BEA5AE616837F9,
+				8EB18B5E338753C95489F57B,
+				8F7FC7D757DCDFF4F03176FC,
+				B2C3D4E5F60718293A4B5C6D,
+				D4E5F60718293A4B5C6D7E8F,
+			);
+			path = "Views";
+			sourceTree = "<group>";
+		};
+		0B6A471883952B1022D536B0 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				DAF4D91095BEBEB8D874A9F1,
+				E420E8C85F416C9CE4F46001,
+			);
+			path = "Services";
+			sourceTree = "<group>";
+		};
+		547D009064F7C3F13BEF3460 /* Products */ = {isa = PBXGroup; children = (F8B28D0D3748A8C81FCE7CC6 /* PhotoCleaner.app */, ); name = Products; sourceTree = "<group>"; };
+/* End PBXGroup section */
+/* Begin PBXNativeTarget section */
+		53E07999CD67F301BC853F38 /* PhotoCleaner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 354589B28580510B6EC24620 /* Build configuration list for PBXNativeTarget "PhotoCleaner" */;
+			buildPhases = (7A70D71C385290AF96BF1031 /* Sources */, 424153ED3CD079DB4DB459AF /* Frameworks */, 285BB1C1430063331E9F5DD0 /* Resources */, );
+			buildRules = ();
+			dependencies = ();
+			name = PhotoCleaner;
+			productName = PhotoCleaner;
+			productReference = F8B28D0D3748A8C81FCE7CC6 /* PhotoCleaner.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+/* Begin PBXProject section */
+		C7E6C20A50DC5578BAF066C5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2710;
+				LastUpgradeCheck = 2710;
+				TargetAttributes = {53E07999CD67F301BC853F38 = {CreatedOnToolsVersion = 27.1; }; };
+			};
+			buildConfigurationList = 1F4E3D13C2320EDA50221924 /* Build configuration list for PBXProject "PhotoCleaner" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (en, Base, );
+			mainGroup = 518DA81DB9B99529C0C0AEBE;
+			productRefGroup = 547D009064F7C3F13BEF3460 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (53E07999CD67F301BC853F38 /* PhotoCleaner */, );
+		};
+/* End PBXProject section */
+/* Begin PBXResourcesBuildPhase section */
+		285BB1C1430063331E9F5DD0 /* Resources */ = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (04DF9AFC51F545B1648EA406 /* PrivacyInfo.xcprivacy in Resources */, D6E7F8091A2B3C4D5E6F7081 /* Assets.xcassets in Resources */, ); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXResourcesBuildPhase section */
+/* Begin PBXSourcesBuildPhase section */
+		7A70D71C385290AF96BF1031 /* Sources */ = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (678311898776E62B5563E4B8 /* PerceptualHash.swift in Sources */, 99A3D9E79B345AE9BBA1F2EB /* MediaRecord.swift in Sources */, EACEBE05B0784664CB88CAFC /* PhotoCleanerApp.swift in Sources */, 06A24EB91A93B4807A7B51A7 /* PhotoLibraryService.swift in Sources */, F8B2015F3D203BE74911CC9E /* StorageService.swift in Sources */, 3B1A8E9A8AE7D53A6B5BD3DC /* AppStore.swift in Sources */, A18DA6DCB1E936649CE5445B /* AssetThumbnailView.swift in Sources */, 28616952AB19B851A3A36297 /* DesignSystem.swift in Sources */, 7048FA0F2F3CB21E09DC55D3 /* FilterSheet.swift in Sources */, 4BFAC33B292E4072F96A8435 /* MediaLibraryView.swift in Sources */, CCD9ADC3FE298D16F4E6598E /* OverviewView.swift in Sources */, 1A9F6CB0E1CF49908D59BB7F /* RootView.swift in Sources */, 56EEC93047438652C1917FFC /* SettingsView.swift in Sources */, C3D4E5F60718293A4B5C6D7E /* ReviewView.swift in Sources */, E5F60718293A4B5C6D7E8F90 /* AssetDetailView.swift in Sources */, ); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXSourcesBuildPhase section */
+/* Begin XCBuildConfiguration section */
+		92E165A9035A603BE73D2E62 /* Debug */ = {isa = XCBuildConfiguration; buildSettings = {
+			CLANG_ENABLE_MODULES = YES;
+			IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+			SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+			SDKROOT = iphoneos;
+			SWIFT_VERSION = 5.0;
+			TARGETED_DEVICE_FAMILY = 1;
+		}; name = Debug; };
+		E1D3BBA94590957B0374D6E9 /* Release */ = {isa = XCBuildConfiguration; buildSettings = {
+			CLANG_ENABLE_MODULES = YES;
+			IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+			SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+			SDKROOT = iphoneos;
+			SWIFT_VERSION = 5.0;
+			TARGETED_DEVICE_FAMILY = 1;
+		}; name = Release; };
+		F22D2FFCC45240A8FF5EBE4A /* Debug */ = {isa = XCBuildConfiguration; buildSettings = {
+			ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+			CODE_SIGN_STYLE = Automatic;
+			DEVELOPMENT_TEAM = 4FD7PCKWNV;
+			CURRENT_PROJECT_VERSION = 1;
+			GENERATE_INFOPLIST_FILE = YES;
+			INFOPLIST_KEY_CFBundleDisplayName = "净屿";
+			INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "净屿需要读取你授权的照片，用于本机识别相似照片并在你确认后整理图库。";
+			INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+			INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+			INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+			IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+			MARKETING_VERSION = 1.0;
+			OTHER_SWIFT_FLAGS = "-Xfrontend -disable-sandbox";
+			PRODUCT_BUNDLE_IDENTIFIER = app.codex.jingyu;
+			PRODUCT_NAME = "$(TARGET_NAME)";
+			SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+			SWIFT_EMIT_LOC_STRINGS = YES;
+			SWIFT_VERSION = 5.0;
+			TARGETED_DEVICE_FAMILY = 1;
+		}; name = Debug; };
+		FE4F802C632EAD717BA35062 /* Release */ = {isa = XCBuildConfiguration; buildSettings = {
+			ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+			CODE_SIGN_STYLE = Automatic;
+			DEVELOPMENT_TEAM = 4FD7PCKWNV;
+			CURRENT_PROJECT_VERSION = 1;
+			GENERATE_INFOPLIST_FILE = YES;
+			INFOPLIST_KEY_CFBundleDisplayName = "净屿";
+			INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "净屿需要读取你授权的照片，用于本机识别相似照片并在你确认后整理图库。";
+			INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+			INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+			INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+			IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+			MARKETING_VERSION = 1.0;
+			OTHER_SWIFT_FLAGS = "-Xfrontend -disable-sandbox";
+			PRODUCT_BUNDLE_IDENTIFIER = app.codex.jingyu;
+			PRODUCT_NAME = "$(TARGET_NAME)";
+			SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+			SWIFT_EMIT_LOC_STRINGS = YES;
+			SWIFT_VERSION = 5.0;
+			TARGETED_DEVICE_FAMILY = 1;
+		}; name = Release; };
+/* End XCBuildConfiguration section */
+/* Begin XCConfigurationList section */
+		1F4E3D13C2320EDA50221924 /* Build configuration list for PBXProject "PhotoCleaner" */ = {isa = XCConfigurationList; buildConfigurations = (92E165A9035A603BE73D2E62 /* Debug */, E1D3BBA94590957B0374D6E9 /* Release */, ); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		354589B28580510B6EC24620 /* Build configuration list for PBXNativeTarget "PhotoCleaner" */ = {isa = XCConfigurationList; buildConfigurations = (F22D2FFCC45240A8FF5EBE4A /* Debug */, FE4F802C632EAD717BA35062 /* Release */, ); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+/* End XCConfigurationList section */
+	};
+	rootObject = C7E6C20A50DC5578BAF066C5 /* Project object */;
+}
