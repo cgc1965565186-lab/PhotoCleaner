@@ -1,5 +1,7 @@
 # 净屿 · iPhone 相册整理
 
+**简体中文** | [English](README.en.md)
+
 面向个人 iPhone 使用的 SwiftUI + PhotoKit 应用，最低支持 iOS 18。所有分析在设备本机完成，不上传媒体，不使用账号或分析服务。
 
 - 相似照片检测基于感知哈希（dHash）与 BK-Tree 分组，查重全程不读取媒体内容
